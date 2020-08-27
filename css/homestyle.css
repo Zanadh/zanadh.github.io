@@ -101,6 +101,7 @@ section {
     padding-top: 100px; 
   }
   .projects h1{
+    color: whitesmoke;
     margin-top: 100px;
   }
 
@@ -180,8 +181,12 @@ footer {
     padding: 30px 0;
 }
  
-#loader {
-  background: #fff url(‘loader.gif’) no-repeat center center
+#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #21242d url('/img/fox-loader2.gif') no-repeat center;
+	z-index: 999;
 }
 
 @media only screen and (max-width: 566px) {

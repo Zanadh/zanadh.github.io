@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div id="loader"></div>
+    <div id="loader"></div> 
     <header id="header"> 
         <nav>
             <ul>
@@ -50,11 +50,11 @@
                 <h1  >Heres something to keep you entertained</h1>
                 <div class="project-list">
                     <ul>
-                        <li>
+                        <!-- <li>
                             <h1 class="button">Painting</h1>
-                        </li>
+                        </li> -->
                         <li>
-                            <h1 class="button">Painting</h1>
+                            <a href="/drawingBoard"> <h1 class="button">Painting</h1></a>
                         </li>
                     </ul>
                 </div>  
@@ -141,5 +141,12 @@
     <footer>
         <h3>Find me here : <a href="https://twitter.com/fadzim13" target="_blank">Twitter</a> | <a href="https://github.com/Zanadh" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/muhfauzanadh/" target="_blank">LinkedIn</a></h3>
     </footer>
+    <script> 
+
+        var preloader = document.getElementById('loader')  
+        document.addEventListener("DOMContentLoaded", function() { 
+            preloader.style.display = 'none'  
+        })  
+    </script>
 </body>
 </html>
