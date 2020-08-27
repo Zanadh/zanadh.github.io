@@ -122,6 +122,25 @@ section {
     /* width: 70px; */
     padding: 30px 20px; 
   }
+  .done .card{ 
+    /* text-align:center; */
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top:5px;
+    padding:0 10px;
+    height:40px;
+    /* min-height:40px; */
+    min-width: 70px;
+    /* width: 70px; */
+    padding: 30px 20px; 
+  }
+  .done .scroll-img{
+    /* float: right; */
+
+  }
+  .done #subtitle{
+    float: left;
+  }
  
 footer {
     /* border: solid grey; */
